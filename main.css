@@ -21,6 +21,11 @@
     box-sizing: border-box;
 }
 
+h1,h2 {
+    font-family: 'Fraunces', serif;
+    padding: 1rem;
+}
+
 
 .menu {
     background-image: url(./images/desktop/image-header.jpg);
@@ -77,6 +82,8 @@
     grid-area: item1;
     width: 60%;
     margin: auto;
+    text-align: center;
+
 }
 
 
@@ -97,6 +104,8 @@
     grid-area: item4;
     width: 60%;
     margin: auto;
+    text-align: center;
+
 }
 .item5 {
     grid-area: item5;
@@ -104,10 +113,58 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+.item5-container {
+    width: 60%;
+    margin:  auto;
+    margin-top: 48%;
+    text-align: center;
+}
+
 .item6 {
     grid-area: item6;
     background-image: url(./images/desktop/image-photography.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
 }
+
+.clients {
+    padding: 10%;
+}
+
+.clients h1 {
+    text-align: center;
+}
+
+.client-container {
+    display: flex;
+    width: 85%;
+    margin: auto;
+}
+
+.item-client {
+    padding: 3rem;
+}
+
+.item-client img {
+    border-radius: 50%;
+    height: 25%;
+    margin-left: 20%;
+}
+
+.item-client p {
+    width: 90%;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+    font-family: 'Barlow', serif;
+    font-weight: normal;
+}
+
+.item-client h2, 
+.item-client h3 {
+    color: var(--Very-dark);
+    margin-left: 15%;
+}
+
