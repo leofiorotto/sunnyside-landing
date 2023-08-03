@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,600&family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,900&display=swap');
+
+:root {
+    
+--Soft-red: hsl(7, 99%, 70%);
+--Yellow: hsl(51, 100%, 49%);
+--Dark-desaturated: hsl(167, 40%, 24%);
+--Dark-blue: hsl(198, 62%, 26%);
+--Dark-moderate : hsl(168, 34%, 41%);
+--Very-dark: hsl(212, 27%, 19%);
+--Very-dark: hsl(213, 9%, 39%);
+--Dark-grayish-blue: hsl(232, 10%, 55%);
+--Grayish-blue: hsl(210, 4%, 67%);
+--White: hsl(0, 0%, 100%);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.menu {
+    background-image: url(./images/desktop/image-header.jpg);
+    height: 100vh;
+    min-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menu1 {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    color: var(--White);
+   
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+    gap: 1.5rem;
+    margin: 1.5rem;
+}
+
+.logo {
+    height: 3rem;
+    margin: 1.5rem;
+}
+
+.tittle-header {
+    display: grid;
+    place-items: center;
+    margin-top: 25vh;
+    font-family: 'Fraunces', serif;
+    color: var(--White);
+    font-size: 3rem;
+    letter-spacing: 1rem;
+}
+
+.grilla {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "item1 item2"
+    "item3 item4"
+    "item5 item6";
+    height: 200vh;
+}
+
+.item1 {
+    grid-area: item1;
+    width: 60%;
+    margin: auto;
+}
+
+
+.item2 {
+    grid-area: item2;
+    background-image: url(./images/desktop/image-transform.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.item3 {
+    grid-area: item3;
+    background-image: url(./images/desktop/image-stand-out.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item4 {
+    grid-area: item4;
+    width: 60%;
+    margin: auto;
+}
+.item5 {
+    grid-area: item5;
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item6 {
+    grid-area: item6;
+    background-image: url(./images/desktop/image-photography.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
